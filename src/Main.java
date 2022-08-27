@@ -44,11 +44,11 @@ public class Main {
         //Подсчитайте вес (количество грамм) такого спорт-завтрака, а затем переведите его в килограммы.
         //Результат напечатайте в консоль.
 
-        double bananas = 80*5;
-        double milk = 105 * 2;
-        double iceCream = 100 * 2;
-        double eggs = 70 * 4;
-        double allWeight = (bananas + milk + iceCream + eggs) / 1000;
+        int bananas = 80*5;
+        int milk = 105 * 2;
+        int iceCream = 100 * 2;
+        int eggs = 70 * 4;
+        int allWeight = (bananas + milk + iceCream + eggs) / 1000;
         System.out.println( "Вес спорт-завтрака - " + allWeight + " кг.");
 
         System.out.println();
